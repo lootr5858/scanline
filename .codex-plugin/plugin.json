@@ -1,0 +1,33 @@
+{
+  "name": "scanline-style",
+  "version": "0.1.0",
+  "description": "Visually parseable, short-block output style for clear, precise, complete agent communication.",
+  "author": {
+    "name": "Evan"
+  },
+  "homepage": "https://github.com/lootr5858/scanline-style",
+  "repository": "https://github.com/lootr5858/scanline-style",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "style",
+    "clarity",
+    "structured-output"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Scanline Style",
+    "shortDescription": "Short-block structured output.",
+    "longDescription": "Scanline Style helps agents write answers, summaries, explanations, reports, plans, and decision memos in visually parseable short blocks while preserving precision and material detail.",
+    "developerName": "Evan",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use Scanline style to summarize this decision.",
+      "Use Scanline style to compare these options.",
+      "Use Scanline style to rewrite this explanation."
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Scanline"
+  short_description: "Short-block structured output"
+  default_prompt: "Use $scanline to rewrite this explanation in short, scan-friendly blocks."
+
+policy:
+  allow_implicit_invocation: true
