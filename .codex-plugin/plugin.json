@@ -1,12 +1,12 @@
 {
-  "name": "scanline-style",
+  "name": "scanline",
   "version": "0.1.0",
   "description": "Visually parseable, short-block output style for clear, precise, complete agent communication.",
   "author": {
     "name": "Evan"
   },
-  "homepage": "https://github.com/lootr5858/scanline-style",
-  "repository": "https://github.com/lootr5858/scanline-style",
+  "homepage": "https://github.com/lootr5858/scanline",
+  "repository": "https://github.com/lootr5858/scanline",
   "license": "MIT",
   "keywords": [
     "writing",
