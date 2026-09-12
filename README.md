@@ -30,21 +30,21 @@ The plugin has no network service, account connection, or runtime dependency.
 
 ## Installation
 
-This repository is a Codex plugin source. Clone it as `plugins/scanline-style` inside a local Codex marketplace, add its entry to `.agents/plugins/marketplace.json`, then configure and install that marketplace:
+This repository is a Codex plugin source. Clone it as `plugins/scanline` inside a local Codex marketplace, add its entry to `.agents/plugins/marketplace.json`, then configure and install that marketplace:
 
 ```bash
 codex plugin marketplace add /path/to/marketplace
-codex plugin add scanline-style@MARKETPLACE_NAME
+codex plugin add scanline@MARKETPLACE_NAME
 ```
 
 The marketplace entry should use:
 
 ```json
 {
-  "name": "scanline-style",
+  "name": "scanline",
   "source": {
     "source": "local",
-    "path": "./plugins/scanline-style"
+    "path": "./plugins/scanline"
   },
   "policy": {
     "installation": "AVAILABLE",
