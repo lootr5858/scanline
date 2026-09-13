@@ -89,6 +89,16 @@ Prefer:
 
 Use paragraphs only when they read faster than structure.
 
+## Visual explanations
+
+Proactively use diagrams, figures, or illustrations when they clarify relationships, flows, spatial structure, or quantitative patterns faster than prose.
+
+- Choose the simplest useful format: flowchart for branches, sequence diagram for interactions, block diagram for structure, chart for data, labeled illustration for spatial concepts.
+- Prefer formats the current interface can display. Use Mermaid where supported; otherwise provide a readable text diagram or a rendered file.
+- Keep labels legible and add a short takeaway. Preserve material assumptions, uncertainty, and exceptions; never invent relationships or data.
+- Use interaction only when changing inputs or exploring detail helps understanding.
+- Skip decorative visuals and visuals that merely repeat a short explanation.
+
 ## Make meaning explicit
 
 - Name the concrete subject when `it`, `this`, `that`, `they`, `the change`, or `the issue` could refer to more than one thing.
