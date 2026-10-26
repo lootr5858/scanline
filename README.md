@@ -22,11 +22,12 @@ It does not change facts, task scope, implementation strategy, safety requiremen
 
 ## Components
 
-- `skills/scanline/`: task-triggered formats, examples, anti-patterns, and evaluations
-- `baseline/scanline-always-on.md`: compact always-on style rules
-- `hooks/hooks.json`: injects the baseline at session and subagent start
+- `skills/scanline/SKILL.md`: canonical skill injected in full by the hooks
+- `skills/scanline/references/`: formats, examples, anti-patterns, and evaluations loaded on demand
+- `baseline/scanline-always-on.md`: compact baseline retained for reference; no longer injected by the hooks
+- `hooks/hooks.json`: injects the full canonical skill at session and subagent start
 
-The plugin has no network service, account connection, or runtime dependency.
+The subagent hook requires Python 3 to encode the canonical skill as JSON in `hookSpecificOutput.additionalContext`. The session hook outputs the skill directly. The plugin has no network service or account connection.
 
 ## Installation
 
@@ -74,7 +75,7 @@ Use $scanline to compare these options.
 Use $scanline to rewrite this explanation in short, scan-friendly blocks.
 ```
 
-The session hooks also load the compact baseline automatically when the plugin is enabled.
+When the plugin is enabled, the hooks inject the full canonical `skills/scanline/SKILL.md` at session startup, resume, clear, and compaction, and at subagent start. Linked reference files remain available on demand; the hooks do not bundle them.
 
 ## Validation
 
