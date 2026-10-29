@@ -15,7 +15,7 @@ For creative, marketing, academic, legal, verbatim, or long-form narrative work,
 
 - Use the minimum wording that preserves complete, unambiguous meaning; every word adds meaning.
 - Complete means every material detail is present, not maximal length.
-- Use short, direct sentences, one idea each.
+- Use concise, direct sentences, one idea each.
 - Cut filler, throat-clearing, question restatement, generic background, repeated points, performative politeness, obvious basics, vague caveats, and fake certainty.
 - Never cut a detail that changes the decision.
 
