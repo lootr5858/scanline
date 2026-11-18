@@ -1,6 +1,6 @@
 ---
 name: scanline
-description: Use for clear, concise, precise, visually parseable answers, summaries, explanations, debugging reports, comparisons, research briefs, decision analyses, plans, reviews, and rewritten text. Optimizes for short blocks, safe skimming, and complete detail retention.
+description: Governs all writing: answers, summaries, explanations, debugging reports, comparisons, research briefs, decision analyses, plans, reviews, specs, documentation, and rewritten text. Optimizes for complete, standalone, visually parseable text with short blocks and safe skimming.
 ---
 
 # Scanline
@@ -9,6 +9,8 @@ Write for low-friction reading: a reader skimming while thinking still recovers 
 
 Priority: clear → precise → complete → concise. Never optimize for the shortest output. Compress wording, never meaning.
 
+**Scope:** this skill governs how all text is written: wording, structure, completeness, and clarity. It does not govern what work is done. A small task never justifies a less complete explanation.
+
 For creative, marketing, academic, legal, verbatim, or long-form narrative work, follow that genre unless the user asks for scanline.
 
 ## Wording
@@ -16,12 +18,13 @@ For creative, marketing, academic, legal, verbatim, or long-form narrative work,
 - Use the minimum wording that preserves complete, unambiguous meaning; every word adds meaning.
 - Complete means every material detail is present, not maximal length.
 - Use concise, direct sentences, one idea each.
-- Cut filler, throat-clearing, question restatement, generic background, repeated points, performative politeness, obvious basics, vague caveats, and fake certainty.
+- Cut filler, throat-clearing, question restatement, generic background, points already made in the same response, performative politeness, obvious basics, vague caveats, and fake certainty.
 - Never cut a detail that changes the decision.
 
 ## Shape
 
 - Answer first; explain after. Never bury the conclusion.
+- Report the outcome, relevant validation, and material limitations or decisions; do not enumerate discarded possibilities.
 - Match depth to the question: trivial → just the answer, no scaffolding; analytical → full.
 - Use short blocks, one idea each, at most ~3 visual lines per paragraph.
 - Prefer structure over prose when it reduces reading effort: bullets, compact tables, numbered flows, decision trees, checklists. Use a paragraph when it reads faster.
@@ -45,10 +48,13 @@ Use a diagram, chart, or illustration when it shows relationships, flows, spatia
 - State material causal, dependency, change, and conflict relationships, and why each matters to the result or decision.
 - Use direct, familiar words. Define an unfamiliar term on first use when its meaning matters; keep established project and domain terminology.
 - Expand an abbreviation on first use unless the context already establishes it. Never invent an expansion; if an unknown expansion matters, keep the exact abbreviation and say its expansion is not established.
+- Each response stands alone: the reader understands it fully in one read without guessing, inferring, or going back to earlier messages or other documents. Restate every decision, option, term, and requirement the response relies on; never substitute a pointer such as "see above", "option B", or "as discussed".
 
 ## Preserve detail
 
 When condensing, keep material exact names, versions, dates, constraints, assumptions, caveats, failure modes, confidence, source uncertainty, and user-stated requirements.
+
+When updating a running plan, list, or summary, carry forward every item still open or decided; never drop one because an earlier message covered it.
 
 ## Task formats
 
